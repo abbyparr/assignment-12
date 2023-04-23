@@ -4,8 +4,7 @@ the_file = open('Stations.csv', 'r')
 
 #map the code (IATA)
 #get B column only
-csvrow = [row[2] for row in reader]
-char = the_file.read('csvrow')
+char = the_file.read('B')
   print(char)
 
 #close the file
